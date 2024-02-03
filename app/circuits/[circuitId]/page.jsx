@@ -19,7 +19,6 @@ export default function Circuit({ params: { circuitId } }) {
       try {
         const circuit = await getCircuit(null, circuitId);
         setCircuit(circuit);
-        console.log(circuit);
       } catch (error) {
         console.error("Erreur lors de la récupération des données:", error);
       } finally {

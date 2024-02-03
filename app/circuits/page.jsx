@@ -33,7 +33,6 @@ const Circuits = () => {
       try {
         const circuits = await getCircuits(season);
         setCircuits(circuits);
-        console.log(circuits);
       } catch (error) {
         console.error("Erreur lors de la récupération des données:", error);
       } finally {

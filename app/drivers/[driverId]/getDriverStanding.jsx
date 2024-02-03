@@ -10,7 +10,6 @@ export default async function getDriverStanding(driverId) {
     })
     .then((data) => {
       const driverStandings = data.MRData.StandingsTable.StandingsLists;
-      console.log(driverStandings);
       return driverStandings;
     });
 }

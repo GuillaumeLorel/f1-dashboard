@@ -53,7 +53,6 @@ export default function Constructor({ params: { constructorId } }) {
       try {
         const constructorStanding = await getConstructorStanding(constructorId);
         setConstructorStanding(constructorStanding);
-        console.log(constructorStanding);
       } catch (error) {
         console.error("Erreur lors de la récupération des données:", error);
       } finally {
@@ -86,7 +85,6 @@ export default function Constructor({ params: { constructorId } }) {
       try {
         const raceResults = await getRaceResults(season, constructorId);
         setRaceResults(raceResults);
-        console.log(raceResults);
       } catch (error) {
         console.error("Erreur lors de la récupération des données:", error);
       } finally {
