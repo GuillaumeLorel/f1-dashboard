@@ -2,7 +2,7 @@ import fetchWikipediaInfo from "@/components/fetchWikipediaInfo";
 
 export default async function getCircuits(season) {
   const response = await fetch(
-    `http://ergast.com/api/f1/${season}/circuits.json?limit=1000`
+    `https://ergast.com/api/f1/${season}/circuits.json?limit=1000`
   );
   if (!response.ok) {
     throw new Error(response.statusText);

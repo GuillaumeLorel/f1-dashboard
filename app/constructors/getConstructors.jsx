@@ -2,7 +2,7 @@ import fetchWikipediaInfo from "@/components/fetchWikipediaInfo";
 
 export default async function getConstructors(season) {
   const response = await fetch(
-    `http://ergast.com/api/f1/${season}/constructors.json?limit=1000`
+    `https://ergast.com/api/f1/${season}/constructors.json?limit=1000`
   );
   if (!response.ok) {
     throw new Error(response.statusText);

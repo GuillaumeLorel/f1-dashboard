@@ -1,6 +1,6 @@
 export default async function getConstructorsStanding(season) {
   return fetch(
-    `http://ergast.com/api/f1/${season}/constructorStandings.json?limit=1000`
+    `https://ergast.com/api/f1/${season}/constructorStandings.json?limit=1000`
   )
     .then((response) => {
       if (!response.ok) {

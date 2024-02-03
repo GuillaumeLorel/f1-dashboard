@@ -4,10 +4,10 @@ export default async function getConstructor(season = null, constructorId) {
   const response =
     season === null
       ? await fetch(
-          `http://ergast.com/api/f1/constructors/${constructorId}.json?limit=1000`
+          `https://ergast.com/api/f1/constructors/${constructorId}.json?limit=1000`
         )
       : await fetch(
-          `http://ergast.com/api/f1/${season}/constructors/${constructorId}.json?limit=1000`
+          `https://ergast.com/api/f1/${season}/constructors/${constructorId}.json?limit=1000`
         );
 
   if (!response.ok) {
