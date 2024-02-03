@@ -31,8 +31,8 @@ const Infos = () => {
                 It&apos;s a web application that uses Formula 1 data from the
                 Ergast API to display and share it. The idea is to make a wealth
                 of information available to the general public. So you can get
-                information on drivers, constructors and circuits. If you're a
-                F1 fan like me, you&apos;ll love this project!
+                information on drivers, constructors and circuits. If
+                you&apos;re a F1 fan like me, you&apos;ll love this project!
               </p>
               <p className="p-5 pt-0">
                 PS: This is my first application using React and NextJS, so if
