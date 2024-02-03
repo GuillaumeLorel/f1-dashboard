@@ -23,20 +23,20 @@ const Infos = () => {
             className="flex flex-col justify-between">
             <TabsList className="w-fit">
               <TabsTrigger value="drivers-standing" className="w-fit mr-auto">
-                What's F1 Dashboard ?
+                <p>What&apos;s F1 Dashboard ?</p>
               </TabsTrigger>
             </TabsList>
             <TabsContent value="drivers-standing" className="m-0">
               <p className="p-5">
-                It's a web application that uses Formula 1 data from the Ergast
-                API to display and share it. The idea is to make a wealth of
-                information available to the general public. So you can get
+                It&apos;s a web application that uses Formula 1 data from the
+                Ergast API to display and share it. The idea is to make a wealth
+                of information available to the general public. So you can get
                 information on drivers, constructors and circuits. If you're a
-                F1 fan like me, you'll love this project!
+                F1 fan like me, you&apos;ll love this project!
               </p>
               <p className="p-5 pt-0">
                 PS: This is my first application using React and NextJS, so if
-                you have any feedback, don't hesitate!
+                you have any feedback, don&apos;t hesitate!
               </p>
             </TabsContent>
           </Tabs>
