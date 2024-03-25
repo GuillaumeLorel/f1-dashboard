@@ -14,7 +14,7 @@ The data is powered by [Ergast API](http://ergast.com/mrd/), a comprehensive and
 
 - **Dynamic Dashboard**: Track the real-time performance of your favorite drivers and teams.
 - **Detailed Statistics**: Dive into comprehensive statistics on past and current races.
-- **Dark/Light mode**: Enjoy a dark and ligth mode build with TailwindCSS.
+- **Dark/Light mode**: Enjoy a dark and light mode build with TailwindCSS.
 
 ## Coming Soon 🚧
 
