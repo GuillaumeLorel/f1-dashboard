@@ -47,7 +47,7 @@ const SeasonSelect = ({ season, setSeason }) => {
         setSeasons(fetchedSeasons);
 
         // Mettre à jour setSeason avec l'année la plus récente
-        const mostRecentSeason = fetchedSeasons[1];
+        const mostRecentSeason = fetchedSeasons[0];
         setSeason(mostRecentSeason);
       } catch (error) {
         console.error("Erreur lors de la récupération des données:", error);
@@ -62,7 +62,7 @@ const SeasonSelect = ({ season, setSeason }) => {
       Season : &nbsp;
       <Select value={season} onValueChange={(value) => setSeason(value)}>
         <SelectTrigger className="w-[100px]">
-          <SelectValue placeholder="2023" />
+          <SelectValue placeholder="2024" />
         </SelectTrigger>
         <SelectContent className="bg-background">
           <ScrollArea className="h-[200px] border-0">
